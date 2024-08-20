@@ -21,7 +21,7 @@ It has been written jokingly... kind of*
 ## My story
 
 Why me? To be honest, I'm having some trouble remembering right now, so why don't
-you just watch me in action instead?
+you just watch me in **action** instead?
 
 Between being an introvert who considers a **quiet weekend** the **ultimate** victory
 (I mean, who needs loud crowds when you have peace and quiet?)
@@ -109,7 +109,7 @@ As i promised earlier, here's a snack for you:
 
 ### Crepe Recipe
 
-##### Ingredients
+#### Ingredients
 
 - 125g flour
 - 2 eggs
@@ -119,7 +119,7 @@ As i promised earlier, here's a snack for you:
 - 30g melted butter
 - (Optional) 1 tsp vanilla for sweet crepes
 
-##### Instructions
+#### Instructions
 
 1. Whisk flour and eggs.
 2. Gradually add milk, water, salt, butter, and vanilla (if using).
