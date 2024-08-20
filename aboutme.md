@@ -72,6 +72,7 @@ I talk a lot — less with people, more with machines!
 
 ### Cloud DevOps Engineer @ [Equixly](https://equixly.com)
 
+*AI powered Cybersecurity*
 *Mar 2024 – Present \| Verona, Italy*  
 
 - Automated deployment processes with ArgoCD and Helm (bye-bye manual work).
@@ -83,8 +84,9 @@ I talk a lot — less with people, more with machines!
   on-demand pods.
 - Authored documentation so clear that even your grandma could follow it.
 
-### Junior Backend Engineer/DevOps @ [Al.ta Cucina](https://altacucina.co)
+### Junior Backend Engineer/DevOps @ [Al.Ta Cucina](https://altacucina.co)
 
+*Italian recipes social media app*
 *Sep 2022 – Mar 2024 \| Remote*  
 
 - Migrated the entire infrastructure from AWS to GCP, optimizing costs and
@@ -96,8 +98,9 @@ I talk a lot — less with people, more with machines!
 - Refactored backend code to modernize and streamline workflows, adding linters,
   formatters, and pre-commit hooks for maximum developer happiness.
 
-### Backend Web Developer Intern @ [Al.ta Cucina](https://altacucina.co)
+### Backend Web Developer Intern @ [Al.Ta Cucina](https://altacucina.co)
 
+*Italian recipes social media app*
 *Apr 2022 – Sep 2022 \| Remote*  
 
 - Developed new features and optimized the backend with Django Rest Framework.
