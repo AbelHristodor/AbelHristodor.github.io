@@ -41,7 +41,6 @@ Curious yet? Me neither, but stick around for the plot.
 > Fun fact: I use Nvim, so I can code faster than you can say
   “vim is hard.” <-- skill issue here
 
-<br />
 ## Skills
 
 - **Cloud Mastery**: Google Cloud (GKE, GCE, ALB), AWS (EKS, Lambda, EC2), Docker,
