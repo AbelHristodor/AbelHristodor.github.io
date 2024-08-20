@@ -896,6 +896,7 @@ pre {
   border-left: 0.4375rem solid #444;
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
+  color: #e4e6eb !important;
   padding: 0;
 }
 .highlight table,
