@@ -41,6 +41,7 @@ Curious yet? Me neither, but stick around for the plot.
 > Fun fact: I use Nvim, so I can code faster than you can say
   “vim is hard.” <-- skill issue here
 
+<br />
 ## Skills
 
 - **Cloud Mastery**: Google Cloud (GKE, GCE, ALB), AWS (EKS, Lambda, EC2), Docker,
@@ -53,6 +54,7 @@ securing infrastructure is kind of my thing.*
 persist, forever.*
 
 ---
+<br />
 
 ## Languages
 
@@ -64,6 +66,7 @@ I talk a lot — less with people, more with machines!
 *and some others my laptop will remind me of when I forget!*
 
 ---
+<br />
 
 ## Relevant Experience
 
@@ -102,6 +105,9 @@ I talk a lot — less with people, more with machines!
   really like infrastructure).
 - Built a video-on-demand solution using AWS to cut Vimeo costs and boost
   performance.
+<br />
+
+<br />
 
 {: .box-success}
 Oh wow – you made it to the end! You must really like me.
