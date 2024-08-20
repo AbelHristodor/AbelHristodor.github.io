@@ -870,6 +870,7 @@ code {
 }
 
 pre code {
+  color: #e4e6eb;
   padding: 0;
   background-color: transparent;
   border-radius: 0;
