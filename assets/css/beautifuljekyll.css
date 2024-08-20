@@ -89,6 +89,9 @@ blockquote p:first-child {
 .jumbotron {
   background: #EEE;
 }
+hr {
+  border-color: var(--text-col);
+}
 hr.small {
   max-width: 6.25rem;
   margin: 1rem auto;
