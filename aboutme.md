@@ -26,16 +26,16 @@ you just watch me in action instead?
 Between being an introvert who considers a **quiet weekend** the **ultimate** victory
 (I mean, who needs loud crowds when you have peace and quiet?)
 and mastering all things tech, I’m a **Cloud DevOps Engineer**
-who loves automating everything, from pipelines to snacks (more on that later)
-(I'm not promising that, though).
+who loves automating everything, from pipelines to snacks (more on that later).
 
-I started my journey in *Verona, Italy* (which you should visit btw),
+I started my journey in *Verona, Italy* ,
 and somewhere along the way, I got **hooked** on making infrastructure efficient
 and **secure**.
 
 When I’m not optimizing costs or fine-tuning service meshes,
 I’m probably pushing my home lab to its **limits** or dominating beach volleyball.
 
+{: .box-warning}
 Curious yet? Me neither, but stick around for the plot.
 
 > Fun fact: I use Nvim, so I can code faster than you can say
@@ -52,6 +52,8 @@ securing infrastructure is kind of my thing.*
 - **Databases & Tools**: PostgreSQL, MongoDB, MySQL, Redis, RabbitMQ – *I make data
 persist, forever.*
 
+---
+
 ## Languages
 
 I talk a lot — less with people, more with machines!
@@ -61,9 +63,11 @@ I talk a lot — less with people, more with machines!
 - **Non-Human Languages**: Python, JavaScript, Golang, Rust, Bash -
 *and some others my laptop will remind me of when I forget!*
 
+---
+
 ## Relevant Experience
 
-### Cloud DevOps Engineer @ Equixly  
+### Cloud DevOps Engineer @ [Equixly](https://equixly.com)
 
 *Mar 2024 – Present \| Verona, Italy*  
 
@@ -76,9 +80,7 @@ I talk a lot — less with people, more with machines!
   on-demand pods.
 - Authored documentation so clear that even your grandma could follow it.
 
----
-
-### Junior Backend Engineer/DevOps @ Al.ta Cucina  
+### Junior Backend Engineer/DevOps @ [Al.ta Cucina](https://altacucina.co)
 
 *Sep 2022 – Mar 2024 \| Remote*  
 
@@ -91,9 +93,7 @@ I talk a lot — less with people, more with machines!
 - Refactored backend code to modernize and streamline workflows, adding linters,
   formatters, and pre-commit hooks for maximum developer happiness.
 
----
-
-### Backend Web Developer Intern @ Al.ta Cucina  
+### Backend Web Developer Intern @ [Al.ta Cucina](https://altacucina.co)
 
 *Apr 2022 – Sep 2022 \| Remote*  
 
@@ -103,13 +103,11 @@ I talk a lot — less with people, more with machines!
 - Built a video-on-demand solution using AWS to cut Vimeo costs and boost
   performance.
 
----
-
 {: .box-success}
 Oh wow – you made it to the end! You must really like me.
 As i promised earlier, here's a snack for you:
 
-#### Crepe Recipe
+### Crepe Recipe
 
 ##### Ingredients
 
