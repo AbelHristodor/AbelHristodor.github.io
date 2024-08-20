@@ -54,7 +54,6 @@ securing infrastructure is kind of my thing.*
 persist, forever.*
 
 ---
-<br />
 
 ## Languages
 
@@ -66,7 +65,6 @@ I talk a lot — less with people, more with machines!
 *and some others my laptop will remind me of when I forget!*
 
 ---
-<br />
 
 ## Relevant Experience
 
@@ -108,14 +106,12 @@ I talk a lot — less with people, more with machines!
   really like infrastructure).
 - Built a video-on-demand solution using AWS to cut Vimeo costs and boost
   performance.
-<br />
-
-<br />
 
 {: .box-success}
 Oh wow – you made it to the end! You must really like me.
 As i promised earlier, here's a snack for you:
 
+<br />
 ### Crepe Recipe
 
 #### Ingredients
