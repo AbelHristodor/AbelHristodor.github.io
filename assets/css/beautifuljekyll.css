@@ -21,7 +21,7 @@ layout: null
   /* common CSS variables */
   --body-font: 'Lora', 'Times New Roman', serif;
   --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --mid-col: #808080;
+  --mid-col: #999999;
 }
 
 /* --- General --- */
@@ -870,7 +870,7 @@ code {
 }
 
 pre code {
-  color: #e4e6eb;
+  color: inherit;
   padding: 0;
   background-color: transparent;
   border-radius: 0;
@@ -878,6 +878,7 @@ pre code {
 
 pre {
   font-size: 0.875rem;
+  color: #e4e6eb;
   line-height: 1.5em;
   border-radius: 0.25rem;
   padding: 0.59375rem;
@@ -952,6 +953,7 @@ pre {
 .box-success {
   padding: 0.9375rem 0.9375rem 0.9375rem 0.625rem;
   margin: 1.25rem 1.25rem 1.25rem 0.3125rem;
+  color: #404040;
   border: 1px solid #eee;
   border-left-width: 0.3125rem;
   border-radius: 0.3125rem 0.1875rem 0.1875rem 0.3125rem;
@@ -974,7 +976,6 @@ pre {
 
 .box-success {
   background-color: #98FB98;
-  color: #404040;
   border-left-color: #3CB371;
 }
 
