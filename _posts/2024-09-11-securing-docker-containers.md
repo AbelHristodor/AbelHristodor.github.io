@@ -12,15 +12,20 @@ author: Abel Hristodor
 
 ## Writing Secure Docker Containers: Best Practices and Strategies
 
-Containerization has become a cornerstone of modern software development, offering a lightweight, scalable, and efficient solution for deploying applications. [Docker](https://www.docker.com/) is one of the most popular container platforms, but with its convenience comes the need for careful security considerations. Ensuring your Docker containers are secure is essential to protect against vulnerabilities, mitigate risks, and ensure the integrity of your applications. Below are key practices and strategies for writing secure Docker containers, ranging from user permissions to container image scanning.
+Containerization has become a **cornerstone** of modern software development, offering a *lightweight*, *scalable*, and *efficient* solution for deploying applications.
+
+[Docker](https://www.docker.com/) is one of the most popular container platforms, but with its convenience comes the need for careful security considerations. Ensuring your Docker containers are **secure** is essential to protect against *vulnerabilities*, *mitigate risks*, and *ensure the integrity* of your applications.
+
+Below are key practices and strategies for writing secure Docker containers, ranging from user permissions to container image scanning.
 
 ---
 
 #### 1. **Run Containers as Non-Root Users**
 
-By default, Docker containers run with root privileges, which poses a significant security risk if a container is compromised. If an attacker gains access to a container running as root, they may also gain root access to the host system, leading to serious security breaches.
+By default, Docker containers run with **root privileges**, which poses a significant **security risk** if a container is compromised. If an attacker gains access to a container running as root, they may also gain root access to the **host system**, leading to serious security breaches.
 
-Configuring containers properly to run as a non-root user reduces this risk. You can do this by adding a user to your Dockerfile:
+Configuring containers properly to run as a non-root user reduces this risk.
+You can do this by adding a user to your Dockerfile:
 
 ```dockerfile
 # Dockerfile
@@ -35,7 +40,7 @@ This example creates a user `appuser` and sets it as the default user for all su
 
 #### 2. **Leverage Multi-Stage Builds for Smaller, More Secure Images**
 
-Multi-stage builds in Docker help reduce the size of your final container image by separating the build environment from the runtime environment. This practice helps by only including necessary dependencies and files in the final container, making it smaller and more secure.
+Multi-stage builds in Docker help **reduce the size** of your final container image by separating the **build** environment from the **runtime** environment.
 
 Here’s an example of a multi-stage build:
 
@@ -54,15 +59,15 @@ COPY --from=builder /app/myapp /app/
 CMD ["./myapp"]
 ```
 
-In this example, the Go application is built in the first stage (`builder`), and the final image contains only the compiled binary and necessary runtime dependencies. By excluding development dependencies, you reduce the image size and potential vulnerabilities.
+In this example, the Go application is built in the first stage (`builder`), and the final image contains only the compiled binary and necessary runtime dependencies. By **excluding development dependencies**, you reduce the image size and potential vulnerabilities.
 
 ---
 
 #### 3. **Implement Health Checks in the Dockerfile**
 
-To ensure your application is running correctly, Docker provides a [HEALTHCHECK](https://docs.docker.com/reference/dockerfile/#healthcheck) directive in the [Dockerfile](https://docs.docker.com/reference/dockerfile/). Health checks periodically test the status of a running container and can help identify when an application is unresponsive or failing.
+To ensure your application is running correctly, Docker provides a [HEALTHCHECK](https://docs.docker.com/reference/dockerfile/#healthcheck) directive in the [Dockerfile](https://docs.docker.com/reference/dockerfile/). Health checks periodically test the **status** of a running container and can help identify when an application is *unresponsive* or *failing*.
 
-Here’s how you can add a health check to your Dockerfile:
+Here’s how you can add a health check to your `Dockerfile`:
 
 ```dockerfile
 # Dockerfile
@@ -76,7 +81,9 @@ In this example, Docker checks the `/health` endpoint of the application every 3
 
 #### 4. **Use Distroless Images**
 
-Distroless images are minimal base images that only include the essential libraries required to run your application. They exclude unnecessary tools like package managers, shells, or debuggers, which significantly reduces the attack surface and helps protect against vulnerabilities.
+Distroless images are **minimal base images** that only include the **essential** libraries required to run your application.
+
+They exclude unnecessary tools like package managers, shells, or debuggers, which significantly reduces the attack surface and helps protect against vulnerabilities.
 
 Google offers a set of [Distroless images](https://github.com/GoogleContainerTools/distroless) that are optimized for security. Here’s an example of using a distroless base image:
 
@@ -93,13 +100,11 @@ COPY --from=builder /app/myapp /app/
 CMD ["/app/myapp"]
 ```
 
-By using distroless images, you're running your application with only the necessary components, further reducing the likelihood of security vulnerabilities.
-
 ---
 
 #### 5. **Set Volumes and File System Permissions to Read-Only**
 
-To minimize the risks associated with file system manipulation in a container, it's important to configure volumes and directories with the least privilege necessary. Whenever possible, mount directories as read-only to prevent unauthorized writes or modifications to sensitive data.
+To minimize the risks associated with file system manipulation in a container, it's important to configure **volumes** and **directories** with the *least privilege* necessary. Whenever possible, mount directories as **read-only** to prevent unauthorized writes or modifications to sensitive data.
 
 Here’s how you can define a volume with read-only permissions:
 
@@ -129,7 +134,7 @@ RUN chmod 400 /app/config.json
 
 #### 6. **Regularly Scan and Verify Container Images**
 
-Container images can contain vulnerabilities, especially when built from outdated base images or dependencies. To address this, it’s essential to regularly scan your container images for vulnerabilities and apply updates to patched versions of libraries or dependencies.
+Container images can contain *vulnerabilities*, especially when built from **outdated** base images or dependencies. To address this, it’s essential to regularly **scan your container images** for vulnerabilities and apply updates to patched versions of libraries or dependencies.
 
 Several tools are available for scanning Docker images, including:
 
@@ -150,6 +155,8 @@ Running these scans as part of your CI/CD pipeline ensures that images are up to
 
 ### Conclusion
 
-Writing secure Docker containers requires a combination of strategies to reduce the attack surface and mitigate risks. By running containers as *non-root* users, using *multi-stage* builds, incorporating *health checks*, adopting *distroless* images, enforcing strict file system permissions, and regularly **scanning** images, you can greatly enhance the security of your dockerized applications.
+Writing secure Docker containers requires a combination of strategies to reduce the attack surface and mitigate risks.
 
-Security is an ongoing process, and adopting these practices will help maintain a strong security posture in your containerized environment.
+By running containers as *non-root* users, using *multi-stage* builds, incorporating *health checks*, adopting *distroless* images, enforcing strict file system permissions, and regularly **scanning** images, you can greatly enhance the security of your dockerized applications.
+
+Security is an **ongoing** process, and adopting these practices will help **maintain** a strong **security posture** in your containerized environment.
