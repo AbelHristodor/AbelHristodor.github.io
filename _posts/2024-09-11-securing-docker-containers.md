@@ -4,7 +4,7 @@ title: Securing Docker Containers
 subtitle: A guide to secure docker containers
 cover-img: /assets/img/docker/containers.jpg
 thumbnail-img: /assets/img/docker/secure-logo.png
-share-img: /assets/img/docker/secure-logo.jpg
+share-img: /assets/img/docker/secure-logo.png
 comments: true
 tags: [containers, infrastructure, docker]
 author: Abel Hristodor
